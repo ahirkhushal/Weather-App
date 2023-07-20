@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script  src="js/app.js" defer></script>
+ 
+  </head>
+  <body>
+    <div class="main-contant">
+      {{>header}}
+
+
+      <p>use this site to get your weather</p>
+
+      <form action="">
+        <input type="text"  placeholder="location">
+        <button>search</button>
+      </form>
+
+<div class="displayWeather">
+      <p id="message-1">Search And Get Results Here !</p>
+      <p id="message-2"></p>
+</div>
+    </div>
+   
+    {{>footer}}
+  </body>
+</html>
